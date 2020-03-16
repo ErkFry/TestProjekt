@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        finn.startAnimation(animation);  // start animation
     }
 
 }
