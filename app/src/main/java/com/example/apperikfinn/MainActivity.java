@@ -7,6 +7,8 @@ import android.annotation.SuppressLint;
 import android.media.MediaPlayer;
 import android.opengl.Visibility;
 import android.os.Bundle;
+import android.os.Debug;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
@@ -67,6 +69,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         finn.startAnimation(animation);  // start animation
+    }
+
+
+    public void heheh(){
+        //hahaha nix passiert
+
     }
 
 }
