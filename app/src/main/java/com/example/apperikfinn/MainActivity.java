@@ -17,15 +17,15 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
 
 
-
+    TranslateAnimation animation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final TranslateAnimation animation = new TranslateAnimation(0.0f, 0.0f,-500.0f, 1920.0f);
-//  new TranslateAnimation(xFrom,xTo, yFrom,yTo)
+        animation = new TranslateAnimation(0.0f, 0.0f,-500.0f, 1920.0f);
+        //  new TranslateAnimation(xFrom,xTo, yFrom,yTo)
         animation.setDuration(5000);  // animation duration
         animation.setRepeatCount(1);  // animation repeat count
         animation.setRepeatMode(1);   // repeat animation (left to right, right to left )
