@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         animation = new TranslateAnimation(0.0f, 0.0f,-500.0f, 1920.0f);
         //  new TranslateAnimation(xFrom,xTo, yFrom,yTo)
         animation.setDuration(5000);  // animation duration
@@ -68,13 +69,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        finn.startAnimation(animation);  // start animation
-    }
-
-
-    public void heheh(){
-        //hahaha nix passiert
 
     }
+
+
+
 
 }
